@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Parent from './Parent';
 import './App.css';
-import { CounterContext } from './CounterContext';
+import  CounterContext  from './CounterContext';
 
 // CREATE A SIMPLE FUNTION TO ORDER APP
 
