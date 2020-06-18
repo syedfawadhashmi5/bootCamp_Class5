@@ -1,5 +1,5 @@
 import React, { useReducer } from 'react';
-import { ConterReducer } from './CounterReducer';
+import ConterReducer  from './CounterReducer';
 
 export default function Child2() {
     let [state, dispatch] = useReducer(ConterReducer, 10);
